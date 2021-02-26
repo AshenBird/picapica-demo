@@ -1,0 +1,17 @@
+{
+  "name": "web-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "mue build",
+    "start": "mue start",
+    "stop": "mue stop",
+    "dev": "mue dev",
+    "void": "mue void"
+  },
+  "dependencies": {
+    "@mcswift/web-framework": "file:..\\WebFramework\\",
+    "graphql": "^15.5.0"
+  }
+}
